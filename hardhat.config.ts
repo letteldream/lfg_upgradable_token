@@ -6,7 +6,8 @@ import "@openzeppelin/hardhat-upgrades";
 
 //const mnemonic = "2a26a2090c457e53c90b1aa98a410460746879cc56ec85c7b6e02a9a24d14d37"
 
-const mnemonic = "4e77f50e34a935a898668e3cd700f06681c08c4c907a9bf22f67e317d44941cc"
+const mnemonic = "7e10d9d7e4e739d13aa3a85c3dfb6c52850e0fef96b57e1bf26891885a9e709d"
+
 
 /*
 // This is a sample Hardhat task. To learn how to create your own go to
