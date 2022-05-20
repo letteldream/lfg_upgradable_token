@@ -1,5 +1,0 @@
-NODE_ADDRESS="0xd30d042f01552e658cf44a246977f7dc1d68256a"
-TOKEN_ADDRESS="0xe297603367Ee05Ec86AD0AB9ACB647ce664089aa"
-
-#RPC_URL="https://data-seed-prebsc-1-s1.binance.org:8545"
-RPC_URL="https://api.avax-test.network/ext/bc/C/rpc"

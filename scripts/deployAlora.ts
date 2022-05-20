@@ -3,15 +3,14 @@ import {ethers} from 'hardhat'
 async function main() {
     const [deployer] = await ethers.getSigners()
     if (deployer === undefined) throw new Error('Deployer is undefined.')
-    console.log('Deploying contracts with the account:', deployer.address)
+    console.log('Deploying Alora contracts with the account:', deployer.address)
 
     console.log('Account balance:', (await deployer.getBalance()).toString())
 
-    const BridgeBsc = await ethers.getContractFactory('BridgeBsc')
-    const BridgeBscDeployed = await BridgeBsc.deploy(
-    )
+    const AloraBsc = await ethers.getContractFactory('Alora')
+    const AloraBscDeployed = await AloraBsc.deploy()
 
-    console.log('BridgeBscDeployed:', BridgeBscDeployed.address)
+    console.log('AloraBscDeployed:', AloraBscDeployed.address)
 }
 
 main()
